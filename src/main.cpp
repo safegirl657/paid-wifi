@@ -688,8 +688,6 @@ void setup() {
   Serial.println();
   if (WiFi.status() == WL_CONNECTED) Serial.println("Router IP: " + WiFi.localIP().toString());
   else Serial.println("Router connect hoy nai (pore auto-retry korbe)");
-
-  dhcpSoftAP.dhcps_set_dns(0, apIP);   // client der DNS = ESP (captive portal)
   WiFi.softAPConfig(apIP, apIP, IPAddress(255, 255, 255, 0));
   WiFi.softAP(AP_SSID, strlen(AP_PASS) ? AP_PASS : nullptr, WiFi.channel(), 0, MAX_CLIENTS);
 

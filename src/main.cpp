@@ -15,8 +15,8 @@ extern "C" {
 }
 
 // ------------------- CONFIG (eta change koro) ---------------
-#define UP_SSID     "YOUR_ROUTER_WIFI"      // jei WiFi theke internet ashbe
-#define UP_PASS     "YOUR_ROUTER_PASSWORD"
+#define UP_SSID     "Abir"      // jei WiFi theke internet ashbe
+#define UP_PASS     "Abir1050"
 #define AP_SSID     "Paid WiFi"             // customer ra ei name dekhbe
 #define AP_PASS     ""                      // khali = open WiFi (captive portal er jonno bhalo)
 #define ADMIN_USER  "admin"
